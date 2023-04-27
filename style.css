@@ -42,13 +42,12 @@ body {
 }
 
 .sobre-mim {
-    max-width: 800px;
     text-align: center;
     display: inline-block; 
     vertical-align: middle;
 }
 .text-sobre {
-    width: 80%;
+    max-width: 700px;
     display: inline-block;
     clear: left;
 }
