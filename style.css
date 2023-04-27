@@ -1,22 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-        }
-#topo-hability {
-    text-align: center;
-    color: white;
-    margin-top: 0px;
-    background-color: #fff;
-    padding: 10px 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e9e9e9;
+    color: #707070;
 }
-.headline-name {
-    font-family: system-ui, 'Open Sans', sans-serif;
-    font-weight: 900;
-    text-align: center;
-    width: auto;
+
+a[href] {
+    text-decoration: none;
+    color: inherit;
 }
-.habilidades {
-    text-align: left;
+
+.image-header img {
+    border-radius: 100px;
+}
+
+.image-header {
+    padding: 10px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.header {
+    vertical-align: center;
+}
+
+.header-content {
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-header {
+    width: 400px;
+}
+
+.sobre-mim {
+    margin: auto;
+}
+.text-sobre {
+    width: 60%;
+    clear: ;
+    margin: auto;
+}
+
+.sobre-mim p {
+    padding: 10px;
 }
