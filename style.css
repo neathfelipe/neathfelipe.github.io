@@ -9,10 +9,6 @@ body {
     color: #707070;
 }
 
-a[href] {
-    text-decoration: none;
-    color: inherit;
-}
 
 .image-header img {
     border-radius: 100px;
@@ -46,10 +42,48 @@ a[href] {
 }
 .text-sobre {
     width: 60%;
-    clear: ;
     margin: auto;
 }
 
 .sobre-mim p {
     padding: 10px;
+}
+.hability {
+    margin: auto;
+    max-width: 800px;
+}
+.hability-order {
+    text-align: left;
+    max-width: 50%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.hability-unorder {
+    text-align: right;
+    max-width: 50%;
+    margin-left: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;;
+}
+
+.hability h3, h4 {
+    margin: 10px;
+}
+
+.button {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px green;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.links-bot {
+    text-align: center;
+    margin-top: 50px;
 }
