@@ -13,6 +13,10 @@ body {
 .image-header img {
     border-radius: 100px;
 }
+.sobre-mim img {
+    border-radius: 100px;
+    display: inline;
+}
 
 .image-header {
     padding: 10px;
@@ -38,11 +42,15 @@ body {
 }
 
 .sobre-mim {
-    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    display: inline-block; 
+    vertical-align: middle;
 }
 .text-sobre {
-    width: 60%;
-    margin: auto;
+    width: 80%;
+    display: inline-block;
+    clear: left;
 }
 
 .sobre-mim p {
@@ -86,4 +94,8 @@ body {
 .links-bot {
     text-align: center;
     margin-top: 50px;
+}
+
+#profile.img {
+    float: left;
 }
