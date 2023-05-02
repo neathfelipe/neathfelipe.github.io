@@ -13,6 +13,7 @@ body {
 .image-header img {
     border-radius: 100px;
 }
+
 .sobre-mim img {
     border-radius: 100px;
     display: inline;
@@ -42,23 +43,28 @@ body {
 }
 
 .sobre-mim {
-    text-align: center;
-    display: inline-block; 
+    text-align: left;
+    display: inline-block;
     vertical-align: middle;
+    margin: 0 auto;
 }
+
 .text-sobre {
     max-width: 700px;
     display: inline-block;
-    clear: left;
+    vertical-align: middle;
+    max-width: 800px;
 }
 
-.sobre-mim p {
+.text-sobre p {
     padding: 10px;
 }
+
 .hability {
     margin: auto;
     max-width: 800px;
 }
+
 .hability-order {
     text-align: left;
     max-width: 50%;
@@ -66,16 +72,19 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
+
 .hability-unorder {
     text-align: right;
     max-width: 50%;
     margin-left: 300px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 10px;;
+    margin-top: 10px;
+    ;
 }
 
-.hability h3, h4 {
+.hability h3,
+h4 {
     margin: 10px;
 }
 
@@ -97,4 +106,5 @@ body {
 
 #profile.img {
     float: left;
+    vertical-align: middle
 }
