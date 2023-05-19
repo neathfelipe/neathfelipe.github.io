@@ -9,27 +9,53 @@
 header {
   text-align: center;
   text-transform: uppercase;
-  margin: 10px;
+  background-color: rgb(63, 63, 63);
+  padding: 30px;
+}
+
+body {
+  height: 100%;
+  background-color: white;
+}
+
+main {
+  display: inline-block;
+  margin-top: 20px;
 }
 
 h1 {
   font-weight: 900;
   font-size: 80px;
+  color: white;
+}
+
+#color-palette {
+  width: fit-content;
+  padding: 15px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 2px solid white;
 }
 
 .color {
-  border: 1px solid black;
   display: inline-block;
   height: 50px;
   width: 50px;
-
+  margin: 2px;
+  border-radius: 0px;
+  cursor: pointer;
 }
+
+.color:hover {
+  transition: ease-in .2s;
+  scale: 1.2;
+}
+
 
 #pixel-board {
   margin: 20px 0px;
 }
 
-/* Requisito 7 */
 .pixel {
   width: 40px;
   height: 40px;
@@ -37,4 +63,132 @@ h1 {
   display: inline-block;
   vertical-align: middle;
   background-color: white;
+  cursor: pointer;
+}
+
+
+#generate-board {
+  display: inline-block;
+  border: none;
+  padding: 7px;
+  background-color: white;
+  color: black;
+  margin: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#generate-board:hover {
+  background-color: black;
+  color: white;
+  transition: all .5s;
+}
+
+#button-random-color {
+  margin-top: 8px;
+  background-color: white;
+  border-radius: 8px;
+  border-style: none;
+  border: 1.5px solid black;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+  text-align: center;
+  transition: ease-out .5s;
+}
+
+#button-random-color:hover {
+  background-image: linear-gradient(to right,
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%);
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.60) 0 3px 8px;
+  transition: .3s;
+  border: none;
+}
+
+
+#btnColorRandom {
+  margin-top: -15px;
+  height: 55px;
+}
+
+#btnInputPixels {
+  margin-top: 30px;
+}
+
+#clear-board {
+  margin-top: 8px;
+  background-color: white;
+  border-style: none;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px;
+  text-align: center;
+  transition: ease-out .5s;
+}
+
+#clear-board:hover {
+  text-shadow: rgba(0, 0, 0, 0.30) 0 3px 8px;
+  transition: .6s;
+  text-decoration: underline;
+  scale: 1;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+
+
+button {
+  cursor: pointer;
+  text-transform: initial;
+}
+
+button:hover {
+  scale: 1.1;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 0px 6px;
+}
+
+input {
+  padding: 6px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 5;
+  width: auto;
+  font-size: 20px;
+}
+
+footer p {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
 }

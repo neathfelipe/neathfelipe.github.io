@@ -141,9 +141,10 @@ const btnInput = document.createElement('button');
 const sectionBtnInput = document.querySelector('#btnInputPixels');
 inputNumber.setAttribute('id', 'board-size');
 btnInput.setAttribute('id', 'generate-board');
-btnInput.innerText = 'VQV';
+btnInput.innerText = 'Criar Pixels';
 inputNumber.setAttribute('min', '1');
 inputNumber.setAttribute('type', 'number');
+inputNumber.setAttribute('placeholder', 'Digite o tamanho');
 sectionBtnInput.appendChild(inputNumber);
 sectionBtnInput.appendChild(btnInput);
 btnInput.addEventListener('click', () => {
