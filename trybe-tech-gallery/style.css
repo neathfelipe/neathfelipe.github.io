@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #22272e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  align-items: center;
+}
+
+.header-login {
+  color: rgb(199, 199, 199);
+  font-size: 15px;
+  text-decoration: none;
+  padding: 17px;
+}
+
+.header-login:hover {
+  text-decoration: underline;
+  background-color: #313842;
+}
+
+.header-title {
+  font-size: 18px;
+}
+
+.header-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.text-section p {
+  text-align: center;
+  max-width: 900px;
+  display: block;
+  margin: auto;
+}
+
+.gallery img {
+  max-width: 150px;
+  max-height: 150px;
+}
+.gallery-content {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
+.gallery-card {
+  text-align: center;
+  background-color: #ebebeb;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: inset;
+  box-shadow: 4px 4px 5px 1px #22272e31;
+}
+
+.gallery-card h4 {
+  font-size: 15px;
+  color: #22272e;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.footer-container img {
+  max-width: 30px;
+  margin: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 150px;
+  margin: auto;
+  margin-top: 40px;
+}
