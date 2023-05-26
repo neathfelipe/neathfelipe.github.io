@@ -1,0 +1,114 @@
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #e9557e;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+#funcionamento {
+  display: inline;
+  max-width: 800px;
+  margin-left: 10px;
+}
+
+.top {
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+#criar-tarefa,
+#apaga-tudo,
+#remover-finalizados,
+#salvar-tarefas,
+#mover-cima,
+#mover-baixo,
+#remover-selecionado {
+  background-color: #e9557e;
+  color: white;
+  border-color: #e9557e;
+}
+
+#criar-tarefa:hover,
+#apaga-tudo:hover,
+#remover-finalizados:hover,
+#salvar-tarefas:hover,
+#mover-cima:hover,
+#mover-baixo:hover,
+#remover-selecionado:hover {
+  background-color: white;
+  color: #e9557e;
+  transition: 0.4s;
+}
+
+.btn-primary {
+  padding: 10px;
+}
+
+.lista {
+  padding: 2px 0px 2px 20px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.selected {
+  background-color: #e9557f31;
+}
+
+.completed {
+  text-decoration: line-through solid #e9557e;
+}
+
+.rodape {
+  background-color: #e9557e;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto auto;
+  padding: 15px 5px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.bi {
+  font-size: 30px;
+  color: white;
+  margin: 0px 5px;
+}
+
+.bi:hover {
+  color: #00000036;
+}
+
+.redes-sociais {
+  text-align: center;
+}
+
+.p-footer {
+  margin-bottom: 2px;
+}

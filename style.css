@@ -1,110 +1,44 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #e9e9e9;
-    color: #707070;
-}
-
-
-.image-header img {
-    border-radius: 100px;
-}
-
-.sobre-mim img {
-    border-radius: 100px;
-    display: inline;
-}
-
-.image-header {
-    padding: 10px;
-    width: 200px;
-    margin-right: 50px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e9e9e9;
+  color: #707070;
 }
 
 .header {
-    vertical-align: center;
+  background-color: rgb(53, 53, 53);
+  color: #d8d8d8;
+  padding: 15px;
+  text-align: center;
 }
 
-.header-content {
-    width: 800px;
-    padding: 30px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.header h3 {
+  font-size: 15px;
 }
 
-.text-header {
-    width: 400px;
+#profile-img {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  margin-right: 100px;
+}
+
+.sobreMim {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 
 .sobre-mim {
-    text-align: left;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 auto;
-}
-
-.text-sobre {
-    max-width: 700px;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 800px;
-}
-
-.text-sobre p {
-    padding: 10px;
-}
-
-.hability {
-    margin: auto;
-    max-width: 800px;
-}
-
-.hability-order {
-    text-align: left;
-    max-width: 50%;
-    margin: 10px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.hability-unorder {
-    text-align: right;
-    max-width: 50%;
-    margin-left: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 10px;
-    ;
-}
-
-.hability h3,
-h4 {
-    margin: 10px;
-}
-
-.button {
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    border: 2px green;
-    color: white;
-    text-decoration: none;
-    background-color: green;
-    border-radius: 5px;
-}
-
-.links-bot {
-    text-align: center;
-    margin-top: 50px;
-}
-
-#profile.img {
-    float: left;
-    vertical-align: middle
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
 }
