@@ -5,8 +5,8 @@ header {
   width: 100%;
   margin-bottom: 30px;
   padding: 20px;
-  background-color: #e9557e;
-  color: white;
+  background-color: #eff4d2;
+  color: #607551;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,9 +40,9 @@ body {
 #mover-cima,
 #mover-baixo,
 #remover-selecionado {
-  background-color: #e9557e;
-  color: white;
-  border-color: #e9557e;
+  background-color: #eff4d2;
+  color: #607551;
+  border-color: #eff4d2;
 }
 
 #criar-tarefa:hover,
@@ -52,8 +52,8 @@ body {
 #mover-cima:hover,
 #mover-baixo:hover,
 #remover-selecionado:hover {
-  background-color: white;
-  color: #e9557e;
+  background-color: #607551;
+  color: #eff4d2;
   transition: 0.4s;
 }
 
@@ -74,12 +74,12 @@ ol {
 }
 
 .completed {
-  text-decoration: line-through solid #e9557e;
+  text-decoration: line-through solid #607551;
 }
 
 .rodape {
-  background-color: #e9557e;
-  color: white;
+  background-color: #eff4d2;
+  color: #607551;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -97,7 +97,7 @@ ol {
 
 .bi {
   font-size: 30px;
-  color: white;
+  color: #607551;
   margin: 0px 5px;
 }
 
