@@ -23,9 +23,7 @@ window.onload = () => {
   // Seleciona tarefa
   ol.addEventListener('click', (e) => {
     const selected = document.querySelector('.selected');
-    if (selected) {
-      selected.classList.remove('selected');
-    } else if (e.target.classList.contains('lista')) {
+    if (e.target.classList.contains('lista')) {
       if (e.target.classList.contains('selected')) {
         selected.classList.remove('selected');
       } else if (selected) {
