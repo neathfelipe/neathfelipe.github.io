@@ -1,44 +1,120 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   color: #707070;
 }
 
-.header {
-  background-color: rgb(53, 53, 53);
-  color: #d8d8d8;
-  padding: 15px;
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-.header h1 {
-  font-size: 30px;
-  font-weight: 900;
-}
-.header h3 {
-  font-size: 15px;
-}
-
-#profile-img {
-  border-radius: 100%;
-  width: 250px;
-  height: 250px;
-  margin-right: 100px;
-}
-
-.sobreMim {
+.navegacao {
   display: flex;
-  justify-content: center;
-  padding: 50px;
-}
-
-.sobre-mim {
-  display: flex;
-  max-width: 1200px;
   align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #371a46;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.938);
+  box-shadow: 0px 0px 20px #00000025;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  min-width: 500px;
+  max-width: 600px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #371a46;
+}
+
+.logo p {
+  margin-top: 18px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #371a46;
+  margin-left: 50px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.header {
+  display: flex;
+  max-width: 100vw;
+  max-height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  height: 100vh;
+  box-shadow: 0px 5px 20px #00000025;
+  margin-bottom: 100px;
+}
+
+.image-header {
+  max-height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  z-index: -1;
+}
+
+.text-topo {
+  color: #371a46;
+  width: 500px;
+  text-align: end;
+}
+
+#nome {
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+#profissao {
+  font-size: 30px;
+  font-style: italic;
+  margin-top: -8px;
+}
+
+.text-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.btn-portfolio {
+  background-color: #371a46;
+  color: #ffffff;
+  padding: 15px 50px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px #00000025;
+}
+
+.btn-portfolio:hover {
+  color: #ffffff;
+  background-color: #371a46d2;
+  transition: 0.4s;
 }
