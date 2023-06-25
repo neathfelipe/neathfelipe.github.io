@@ -1,0 +1,19 @@
+{
+  "name": "hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vite": "^4.3.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0"
+  }
+}
